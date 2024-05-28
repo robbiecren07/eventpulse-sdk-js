@@ -1,0 +1,32 @@
+{
+  "name": "@robbiecren/eventpulse-sdk-js",
+  "version": "1.1.0",
+  "description": "A JavaScript SDK for EventPulse",
+  "main": "dist/eventpulse-sdk-js.cjs",
+  "module": "dist/eventpulse-sdk-js.mjs",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "Robbie Crenshaw",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@rollup/plugin-replace": "^5.0.5",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@types/node": "^20.12.12",
+    "rollup": "^4.17.2",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robbiecren07/eventpulse-sdk-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robbiecren07/eventpulse-sdk-js/issues"
+  },
+  "homepage": "https://github.com/robbiecren07/eventpulse-sdk-js#readme"
+}

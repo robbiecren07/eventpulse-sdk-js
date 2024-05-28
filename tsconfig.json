@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "ES2015",
+    "lib": ["ES2015", "DOM"],
+    "declaration": true,
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "importHelpers": true,
+    "downlevelIteration": true,
+    "baseUrl": "./",
+    "paths": {
+      "tslib": ["./node_modules/tslib/tslib.d.ts"]
+    },
+    "moduleResolution": "node"
+  },
+  "include": ["src"]
+}
